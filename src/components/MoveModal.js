@@ -16,7 +16,7 @@ class MoveModal extends Component {
 
   state = {
     open: false,
-    deptId: 'cjbuuv9ka4s3l0162qzn4zy5x'
+    deptId: ''
   }
   open = () => this.setState({ open: true })
   close = () => this.setState({ open: false })
@@ -35,10 +35,12 @@ class MoveModal extends Component {
 
   render() {
     const { open, deptId } = this.state
+    const { trigger } = this.props
+
     const query = this.props.AllDeptsAndModelsQuery
-    const deptOptions = !query ? [ { text: 'Участок ', value: 'cjbuuv9ka4s3l0162qzn4zy5x' } ] :
-      query.loading ? [ { text: 'Загрузка списка', value: 'cjbuuv9ka4s3l0162qzn4zy5x' } ] :
-      query.error ? [ { text: 'Ошибка загрузки списка', value: 'cjbuuv9ka4s3l0162qzn4zy5x' } ] :
+    const deptOptions = !query ? [ { text: 'Участок ', value: '' } ] :
+      query.loading ? [ { text: 'Загрузка списка', value: '' } ] :
+      query.error ? [ { text: 'Ошибка загрузки списка', value: '' } ] :
       query.allDepts.map(dept => {
         return {
           text: dept.name,
@@ -48,7 +50,7 @@ class MoveModal extends Component {
 
     return (
       <Modal
-        trigger={<Icon name='arrow right' />}
+        trigger={trigger}
         open={open}
         onOpen={this.open}
         onClose={this.close}
@@ -56,7 +58,7 @@ class MoveModal extends Component {
         <Modal.Header as='h2'> Отправить продукцию </Modal.Header>
         <Modal.Content>
           <Form onSubmit={this.confirm}>
-            <Form.Select label='Куда' options={deptOptions} onChange={this.handleChange} value={this.state.deptId}/>
+            <Form.Select label='Куда' options={deptOptions} onChange={this.handleChange} value={deptId} required/>
           </Form>
         </Modal.Content>
         <Modal.Actions>

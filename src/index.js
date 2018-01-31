@@ -16,11 +16,7 @@ import { ApolloLink } from 'apollo-client-preset'
 
 import { GC_AUTH_TOKEN } from './constants'
 
-<<<<<<< HEAD
 const httpLink = new HttpLink({ uri: 'https://api.graph.cool/simple/v1/cjcgfcs363v5p0110vjauvz03' })
-=======
-const httpLink = new HttpLink({ uri: 'https://api.graph.cool/simple/v1/cjd2pouxq8rgw0123uc5jkedr' })
->>>>>>> dev/master
 
 const middlewareAuthLink = new ApolloLink((operation, forward) => {
   const token = localStorage.getItem(GC_AUTH_TOKEN)

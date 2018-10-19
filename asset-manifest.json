@@ -1,12 +1,14 @@
 {
-  "main.css": "static/css/main.15bfc0bc.css",
-  "main.css.map": "static/css/main.15bfc0bc.css.map",
-  "main.js": "static/js/main.3da11d3d.js",
-  "main.js.map": "static/js/main.3da11d3d.js.map",
-  "static\\media\\flags.png": "static/media/flags.9c74e172.png",
-  "static\\media\\icons.eot": "static/media/icons.674f50d2.eot",
-  "static\\media\\icons.svg": "static/media/icons.912ec66d.svg",
-  "static\\media\\icons.ttf": "static/media/icons.b06871f2.ttf",
-  "static\\media\\icons.woff": "static/media/icons.fee66e71.woff",
-  "static\\media\\icons.woff2": "static/media/icons.af7ae505.woff2"
+  "main.js": "/komz/static/js/main.e76e4723.chunk.js",
+  "main.js.map": "/komz/static/js/main.e76e4723.chunk.js.map",
+  "static/css/1.5aeb6c60.chunk.css": "/komz/static/css/1.5aeb6c60.chunk.css",
+  "static/js/1.46db1812.chunk.js": "/komz/static/js/1.46db1812.chunk.js",
+  "static/js/1.46db1812.chunk.js.map": "/komz/static/js/1.46db1812.chunk.js.map",
+  "runtime~main.js": "/komz/static/js/runtime~main.d891d2b4.js",
+  "runtime~main.js.map": "/komz/static/js/runtime~main.d891d2b4.js.map",
+  "static/media/semantic.min.css": "/komz/static/media/brand-icons.a1a749e8.svg",
+  "static/css/1.5aeb6c60.chunk.css.map": "/komz/static/css/1.5aeb6c60.chunk.css.map",
+  "index.html": "/komz/index.html",
+  "precache-manifest.ebc1842413facec5c9ce2c7b1dee2c4e.js": "/komz/precache-manifest.ebc1842413facec5c9ce2c7b1dee2c4e.js",
+  "service-worker.js": "/komz/service-worker.js"
 }

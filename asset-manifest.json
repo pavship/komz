@@ -1,14 +1,14 @@
 {
-  "main.js": "/komz/static/js/main.b18e83b7.chunk.js",
-  "main.js.map": "/komz/static/js/main.b18e83b7.chunk.js.map",
+  "main.js": "/komz/static/js/main.5ba00efb.chunk.js",
+  "main.js.map": "/komz/static/js/main.5ba00efb.chunk.js.map",
   "static/css/1.5aeb6c60.chunk.css": "/komz/static/css/1.5aeb6c60.chunk.css",
-  "static/js/1.46db1812.chunk.js": "/komz/static/js/1.46db1812.chunk.js",
-  "static/js/1.46db1812.chunk.js.map": "/komz/static/js/1.46db1812.chunk.js.map",
+  "static/js/1.ba6077e6.chunk.js": "/komz/static/js/1.ba6077e6.chunk.js",
+  "static/js/1.ba6077e6.chunk.js.map": "/komz/static/js/1.ba6077e6.chunk.js.map",
   "runtime~main.js": "/komz/static/js/runtime~main.d891d2b4.js",
   "runtime~main.js.map": "/komz/static/js/runtime~main.d891d2b4.js.map",
   "static/media/semantic.min.css": "/komz/static/media/brand-icons.a1a749e8.svg",
   "static/css/1.5aeb6c60.chunk.css.map": "/komz/static/css/1.5aeb6c60.chunk.css.map",
   "index.html": "/komz/index.html",
-  "precache-manifest.e8503199262a91befbf6f395ca7e2ecb.js": "/komz/precache-manifest.e8503199262a91befbf6f395ca7e2ecb.js",
+  "precache-manifest.2a82cee46daa8d8a90f99b7914b76fe8.js": "/komz/precache-manifest.2a82cee46daa8d8a90f99b7914b76fe8.js",
   "service-worker.js": "/komz/service-worker.js"
 }
